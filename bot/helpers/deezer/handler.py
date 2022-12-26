@@ -50,7 +50,7 @@ class DeezerDL:
             track_data = track_data['DATA']
             if 'FALLBACK' in track_data:
                 track_data = track_data['FALLBACK']
-            q_tier = 'MP3_128'
+            q_tier = 'FLAC'
         else:
             track_data = deezerapi.get_track_data(track_id)
             if 'FALLBACK' in track_data:
