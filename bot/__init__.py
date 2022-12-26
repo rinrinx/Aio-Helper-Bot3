@@ -18,12 +18,12 @@ class CMD(object):
     START = ["start", f"start@{bot}"]
     HELP = ["help", f"help@{bot}"]
     # Open Settings Panel
-    SETTINGS = ["admin_settings", f"admin_settings@{bot}"]
-    DOWNLOAD = ["download", f"download@{bot}"]
+    SETTINGS = ["settings", f"settings@{bot}"]
+    DOWNLOAD = ["dl", f"dl@{bot}"]
     # Auth user or chat to use the bot
     # TODO Add cmd to remove auth
     AUTH = ["auth", f"auth@{bot}"]
     # Add user as admin user
-    ADD_ADMIN = ["add_sudo", f"add_sudo@{bot}"]
+    ADD_ADMIN = ["sudo", f"sudo@{bot}"]
     # To execute shell cmds
     SHELL = ["shell", f"shell@{bot}"]
