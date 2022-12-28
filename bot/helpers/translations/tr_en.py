@@ -6,10 +6,10 @@ class EN(object):
 # BASICS
 #
 #----------------
-    WELCOME_MSG = "Hello {} Sir"
+    WELCOME_MSG = "Hello {}"
     START_DOWNLOAD = "Starting to download.."
     ANTI_SPAM_WAIT = "Wait for the current task to complete!"
-    TASK_COMPLETED = "Download Finished {}"    
+    TASK_COMPLETED = "Download Finished"    
 
 
 
