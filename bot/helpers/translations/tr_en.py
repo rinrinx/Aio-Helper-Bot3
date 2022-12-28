@@ -7,9 +7,9 @@ class EN(object):
 #
 #----------------
     WELCOME_MSG = "Hello {} Sir"
-    START_DOWNLOAD = "Starting to download..........."
+    START_DOWNLOAD = "Starting to download.."
     ANTI_SPAM_WAIT = "Wait for the current task to complete!"
-    TASK_COMPLETED = "Download Finished"    
+    TASK_COMPLETED = "Download Finished {}"    
 
 
 
@@ -22,7 +22,7 @@ class EN(object):
     ADD_ADMIN_SUCCESS = "Successfully added {} as an admin"
     NO_ID_TO_AUTH = "No ID provided to add!"
     # TIDAL
-    TIDAL_NOT_AUTH = "No Tidal Logins Given."
+    TIDAL_NOT_AUTH = "No Tidal Logins"
     TIDAL_AUTH_NEXT_STEP = "Go to {0} within the next {1} to complete tidal authentication."
     TIDAL_AUTH_SUCCESS = "Tidal authentication successful.\n\nIt is now valid for {}"
     TIDAL_ALREADY_AUTH = "Your authentication is already done.\nIts is valid for {}"
