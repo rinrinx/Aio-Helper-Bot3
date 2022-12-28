@@ -99,7 +99,7 @@ class EN(object):
     TIDAL_SETTINGS_PANEL = """
 <b>Configure Tidal Settings Here</b>
 
-<b><u>CURRENT SETTINGS</u></b>
+<b><u>SETTINGS</u></b>
 
 <b>Quality : </b><code>{0}</code>
 <b>API : </b><code>{1}</code>
@@ -147,13 +147,13 @@ API Key Valid : <code>{2}</code>
 #
 #----------------
     # MAIN MENU
-    MAIN_MENU_BUTTON = "MAIN MENU"
-    TG_AUTH_BUTTON = "TELEGRAM SETTINGS"
-    TIDAL_BUTTON = "TIDAL SETTINGS"
-    QOBUZ_BUTTON = "QOBUZ SETTINGS"
-    DEEZER_BUTTON = "DEEZER SETTINGS"
-    KKBOX_BUTTON = 'KKBOX SETTINGS'
-    SOUNDCLOUD_BUTTON = "SOUNDCLOUD SETTINGS"
+    MAIN_MENU_BUTTON = "MENU"
+    TG_AUTH_BUTTON = "TELEGRAM"
+    TIDAL_BUTTON = "TIDAL"
+    QOBUZ_BUTTON = "QOBUZ"
+    DEEZER_BUTTON = "DEEZER"
+    KKBOX_BUTTON = 'KKBOX'
+    SOUNDCLOUD_BUTTON = "SOUNDCLOUD"
     CLOSE_BUTTON = "CLOSE"
     API_BUTTON = "API"
     # COMMON BUTTONS
@@ -182,4 +182,4 @@ API Key Valid : <code>{2}</code>
 #----------------
     # QOBUZ
     ERR_QOBUZ_NOT_STREAMABLE = "This album is not available to download."
-    ERR_NO_LINK = "No link provided to download from"
+    ERR_NO_LINK = "No download Source"
