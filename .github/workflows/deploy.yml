@@ -41,3 +41,4 @@ jobs:
           HD_DEEZER_BF_SECRET: ${{secrets.DEEZER_BF_SECRET}}
           HD_DEEZER_TRACK_URL_KEY: ${{secrets.DEEZER_TRACK_URL_KEY}}
           HD_DEEZER_ARL: ${{secrets.DEEZER_ARL}}
+          HD_MENTION_USERS: ${{secrets.MENTION_USERS}}
