@@ -41,7 +41,7 @@ class EN(object):
 #
 #----------------
     USER_MENTION_ALBUM = "◉ <b>User: </b> {}"
-    USER_MENTION_TRACK = "<b>User: </b> {}"
+    USER_MENTION_TRACK = "◉ <b>User: </b> {}"
 
     # TIDAL
     TIDAL_ALBUM_DETAILS = """
@@ -77,7 +77,7 @@ class EN(object):
 ◉ <b>Total Tracks :</b> {3}
 """
 
-    QUALITY_ADDON = "<b>Quality :</b> {} \n"
+    QUALITY_ADDON = "<b>◉ Quality :</b> {} \n"
 
     
 
@@ -97,9 +97,9 @@ class EN(object):
     # TIDAL PANEL
     #
     TIDAL_SETTINGS_PANEL = """
-<b>Configure Tidal Settings Here</b>
+<b>Tidal Settings</b>
 
-<b><u>SETTINGS</u></b>
+<b><u>Settings</u></b>
 
 <b>Quality : </b><code>{0}</code>
 <b>API : </b><code>{1}</code>
