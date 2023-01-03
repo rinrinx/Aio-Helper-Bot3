@@ -183,7 +183,7 @@ async def quality_cb(bot, update):
         if provider == "tidal":
             current_quality, _ = set_db.get_variable("TIDAL_QUALITY")
             if not current_quality:
-                current_quality = "Default"
+                current_quality = "Master"
         elif provider == 'kkbox':
             current_quality, _ = set_db.get_variable("KKBOX_QUALITY")
             data  = kkbox_api.available_qualities
@@ -209,7 +209,7 @@ async def set_quality_cb(bot, update):
             set_db.set_variable("TIDAL_QUALITY", quality, False, None)
             current_quality, _ = set_db.get_variable("TIDAL_QUALITY")
             if not current_quality:
-                current_quality = "Default"
+                current_quality = "Master"
         elif provider == 'kkbox':
             set_db.set_variable("KKBOX_QUALITY", quality, False, None)
             current_quality = quality
