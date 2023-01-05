@@ -6,10 +6,10 @@ class EN(object):
 # BASICS
 #
 #----------------
-    WELCOME_MSG = "👋🏽 Hi {}"
-    START_DOWNLOAD = "⏬ Downloading.."
-    ANTI_SPAM_WAIT = "🔂 Wait task to complete!"
-    TASK_COMPLETED = "✅ Downloaded"    
+    WELCOME_MSG = "👋🏽 𝐇𝐢 {}"
+    START_DOWNLOAD = "⏬ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠.."
+    ANTI_SPAM_WAIT = "🔂 𝐖𝐚𝐢𝐭 𝐭𝐚𝐬𝐤 𝐭𝐨 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞!"
+    TASK_COMPLETED = "✅ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝"    
 
 
 
@@ -22,16 +22,16 @@ class EN(object):
     ADD_ADMIN_SUCCESS = "✅ Successfully added {} as an admin"
     NO_ID_TO_AUTH = "⛔️ No ID provided to add!"
     # TIDAL
-    TIDAL_NOT_AUTH = "❌ No Tidal Logins"
+    TIDAL_NOT_AUTH = "❌ 𝗡𝗼 𝗧𝗶𝗱𝗮𝗹 𝗟𝗼𝗴𝗶𝗻𝘀"
     TIDAL_AUTH_NEXT_STEP = "Go to {0} within the next {1} to complete tidal authentication."
     TIDAL_AUTH_SUCCESS = "✅ Tidal authentication successful.\n\nIt is now valid for {}"
     TIDAL_ALREADY_AUTH = "✅ Your authentication is already done.\nIts is valid for {}"
     # KKBOX
-    KKBOX_NOT_AUTH = "❌ KKBOX credentials not provided"
+    KKBOX_NOT_AUTH = "❌ 𝐊𝐊𝐁𝐎𝐗 𝐜𝐫𝐞𝐝𝐞𝐧𝐭𝐢𝐚𝐥𝐬 𝐧𝐨𝐭 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐝"
     # DEEZER
-    DEEZER_NOT_AUTH = "❌ Deezer credentials not provided"
+    DEEZER_NOT_AUTH = "❌ 𝐃𝐞𝐞𝐳𝐞𝐫 𝐜𝐫𝐞𝐝𝐞𝐧𝐭𝐢𝐚𝐥𝐬 𝐧𝐨𝐭 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐝"
     # QOBUZ
-    QOBUZ_NOT_AUTH = "❌ Qobuz credentials not provided"
+    QOBUZ_NOT_AUTH = "❌ 𝐐𝐨𝐛𝐮𝐳 𝐜𝐫𝐞𝐝𝐞𝐧𝐭𝐢𝐚𝐥𝐬 𝐧𝐨𝐭 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐝"
 
 
 
@@ -40,44 +40,43 @@ class EN(object):
 # MUSIC DETAILS - TELEGRAM
 #
 #----------------
-    USER_MENTION_ALBUM = "◉ <b>User: </b> {}"
-    USER_MENTION_TRACK = "◉ <b>User: </b> {}"
+    USER_MENTION_ALBUM = "◉ <b>ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ : </b> {}"
+    USER_MENTION_TRACK = "◉ <b>ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ : </b> {}"
 
     # TIDAL
     TIDAL_ALBUM_DETAILS = """
-◉ <b>Title :</b> {0}
-◉ <b>Artist :</b> {1}
-◉ <b>Release Date :</b> {2}
-◉ <b>Number of Tracks :</b> {3}
-◉ <b>Duration :</b> {4}
-◉ <b>Number of Volumes :</b> {5}
+◉ <b>ᴛɪᴛʟᴇ :</b> {0}
+◉ <b>ᴀʀᴛɪsᴛ :</b> {1}
+◉ <b>ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ :</b> {2}
+◉ <b>ᴛʀᴀᴄᴋs :</b> {3}
+◉ <b>ᴅᴜʀᴀᴛɪᴏɴ :</b> {4}
 """
     # KKBOX
     KKBOX_ALBUM_DETAILS = """
-◉ <b>Title :</b> {0}
-◉ <b>Artist :</b> {1}
-◉ <b>Release Date :</b> {2}
-◉ <b>Number of Tracks :</b> {3}
+◉ <b>ᴛɪᴛʟᴇ :</b> {0}
+◉ <b>ᴀʀᴛɪsᴛ :</b> {1}
+◉ <b>ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ :</b> {2}
+◉ <b>ᴛʀᴀᴄᴋs :</b> {3}
 """
 
     # QOBUZ
     QOBUZ_ALBUM_DETAILS = """
-◉ <b>Title :</b> {0}
-◉ <b>Artist :</b> {1}
-◉ <b>Release Date :</b> {2}
-◉ <b>Number of Tracks :</b> {3}
+◉ <b>ᴛɪᴛʟᴇ :</b> {0}
+◉ <b>ᴀʀᴛɪsᴛ :</b> {1}
+◉ <b>ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ :</b> {2}
+◉ <b>ᴛʀᴀᴄᴋs :</b> {3}
 """
 
     
     # DEEZER
     DEEZER_ALBUM_DETAILS = """
-◉ <b>Title :</b> {0}
-◉ <b>Artist :</b> {1}
-◉ <b>Release Date :</b> {2}
-◉ <b>Total Tracks :</b> {3}
+◉ <b>ᴛɪᴛʟᴇ :</b> {0}
+◉ <b>ᴀʀᴛɪsᴛ :</b> {1}
+◉ <b>ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ :</b> {2}
+◉ <b>ᴛʀᴀᴄᴋs :</b> {3}
 """
 
-    QUALITY_ADDON = "<b>◉ Quality :</b> {} \n"
+    QUALITY_ADDON = "<b>◉ Qᴜᴀʟɪᴛʏ :</b> {} \n"
 
     
 
@@ -181,5 +180,5 @@ API Key Valid : <code>{2}</code>
 #
 #----------------
     # QOBUZ
-    ERR_QOBUZ_NOT_STREAMABLE = "⛔️ This album is not available to download."
-    ERR_NO_LINK = "⛔️ No download Source"
+    ERR_QOBUZ_NOT_STREAMABLE = "⛔️ 𝐓𝐡𝐢𝐬 𝐚𝐥𝐛𝐮𝐦 𝐢𝐬 𝐧𝐨𝐭 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐭𝐨 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝."
+    ERR_NO_LINK = "⛔️ 𝐍𝐨 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐒𝐨𝐮𝐫𝐜𝐞"
