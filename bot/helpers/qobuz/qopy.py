@@ -22,7 +22,7 @@ class Client:
         quality, _ = set_db.get_variable("QOBUZ_QUALITY")
         if not quality:
             set_db.set_variable("QOBUZ_QUALITY", 27, False, None)
-            quality = 6
+            quality = 27
         self.id = None
         self.secrets = None
         self.session = requests.Session()
