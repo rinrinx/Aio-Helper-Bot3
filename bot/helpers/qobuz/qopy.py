@@ -21,7 +21,7 @@ class Client:
     def __init__(self):
         quality, _ = set_db.get_variable("QOBUZ_QUALITY")
         if not quality:
-            set_db.set_variable("QOBUZ_QUALITY", 6, False, None)
+            set_db.set_variable("QOBUZ_QUALITY", 27, False, None)
             quality = 6
         self.id = None
         self.secrets = None
